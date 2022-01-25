@@ -1,3 +1,6 @@
+*{
+max-width: 100%;
+}
 .navbarContent{
     border: 1px solid #ffffff;
     border-radius: 25px;
@@ -113,10 +116,120 @@ font-size: 18px;
     height: 400px;
     position: relative;
 }
-.hometopabout{
-    font-size: 4em;
-
+.aboutClass{
     text-align: center;
-    line-height: 1;
-    width: 300px   
+    font-size: 4em;
+    margin-top: 100px;
 }
+.aboutMeFirstImage{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+}
+.aboutIntroduction{
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    font-weight: 400;
+
+}
+
+.aboutExperience{
+    font-weight: 400;
+    padding-top: 50px;
+    font-size: 24px;
+}
+.historyStory{
+    display: flex;
+    width: 100%;
+    font-weight: 400;
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.historyText{
+    width: 50%;
+}
+
+.historyImage{
+    width: 50%;
+    background-color:#ffffff;
+}
+
+@media only screen and (max-width:768px){
+    .ulClass{
+        display: flex;
+    }
+    .hometop{
+        font-size: 1.5em;
+        margin: 0;
+        text-align: left;
+    }
+    .hometopP{
+    
+        text-align: left;
+    }
+    .hometopdiv{
+        width: 100%;
+    }
+    .homeimageright{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .homeimage{
+       
+        width: 100%;
+        height: 200px;
+        background-color: #ffffff;
+        border-radius: 0;
+        position: relative;
+        transform: none;
+    
+    }
+    .nametab,  .nametabP{
+        margin-top: 20px;
+        text-align: left;
+       
+    }
+    .fullimage{
+        width: 100%;
+        height: 300px;
+        background-color: #ffffff;
+    
+    
+    }
+    .aboutdetails {
+        width: 100%;
+        text-align: left;
+    }
+    .textspans{
+        margin-top: 100px;
+        font-weight: 600;
+        font-size:3rem;
+        line-height: 1;
+        text-align: left;
+    }
+    .textspan2{
+        margin-left:50%;
+    }
+    .sayHelloHere{
+        text-align: center;
+        padding: 60px 0;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .contactHello{
+        font-size: 1.5em;
+    }
+    .homePageFooter{
+        display: block;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    }
+    
+
