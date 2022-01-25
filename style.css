@@ -1,0 +1,122 @@
+.navbarContent{
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 10px;
+}
+.hometop{
+    margin-top: 20px;
+    padding-top: 90px;
+    font-size: 2.5em;
+
+    line-height: 0.9;
+    font-weight: 700;
+   
+}
+.hometopdivall{
+    margin-bottom: 60px;
+}
+.hometopdiv{
+    width: 60%;
+}
+.homeimageright{
+    margin-top: 50px;
+    width: 40%;
+}
+.homeimage{
+   
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    transform: rotate(10deg);
+
+}
+.hometopP{
+   
+    font-weight: 600;
+}
+.introbody{
+    width: 100%;
+}
+
+
+.nametab{
+    margin-top: 100px;
+   
+}
+.nametabP{
+font-weight: 300;
+font-size: 18px;
+
+}
+.hometop1{
+    padding-top: 20px;
+}
+.fullimage{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+
+
+}
+.aboutdetails {
+    width: 50%;
+}
+.textspans{
+    margin-top: 100px;
+    font-weight: 600;
+    font-size:16rem;
+    line-height: 1;
+}
+.textspan2{
+    margin-left: 600px;
+}
+.sayHelloHere{
+    text-align: center;
+    padding: 60px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.contactHello{
+    font-size: 6em;
+}
+.homePageFooter{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Styling for work page */
+.hometopwork{
+    font-size: 4em;
+    text-align: center;
+    line-height: 1;
+}
+.workImages{
+    display: flex;
+    padding-bottom: 80px;
+    
+}
+.workImagesdiv{
+    width: 50%;
+    margin: 10px;
+}
+.comingsoon{
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.hometopabout{
+    font-size: 4em;
+
+    text-align: center;
+    line-height: 1;
+    width: 300px   
+}
