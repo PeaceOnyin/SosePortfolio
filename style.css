@@ -353,6 +353,25 @@ hr.aboutLine {
     .textspan2{
         margin-left:50%;
     }
+    .textspan1:hover{
+        font-size: 3rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        color: black;
+    
+    }
+    .textspan2:hover{
+        font-size: 3rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        color: black;
+    }
+    .textspan3:hover{
+        font-size: 3rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        color: black;
+    }
     .sayHelloHere{
         text-align: center;
         padding: 60px 0;
