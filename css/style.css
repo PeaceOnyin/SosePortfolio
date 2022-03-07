@@ -29,12 +29,13 @@ body{
 }
 .nav{
     display: grid;
-    grid-template-columns: 5fr 10fr 5fr;
+    grid-template-columns: 5fr 6fr 6fr;
     background-color: transparent;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 25px 5px;
+    padding: 25px 0;
+    margin: 0;
     color:#fff;
 }
 .navbarList{
@@ -67,7 +68,20 @@ text-decoration: none;
 .hometopdivall{
     display: flex;
     margin-top: 50px;
-    
+
+}
+.containerAll{
+    animation-name: fade;
+    animation-duration: 5s;
+    opacity: 0; 
+ animation-fill-mode:forwards;
+ 
+}
+@keyframes fade{
+    100%{
+        opacity: 1;
+    }
+   
 }
 .hometopdiv{
     width: 70%;
@@ -89,6 +103,7 @@ text-decoration: none;
     background-repeat: no-repeat;
     position: relative;
     transform: rotate(8deg);
+    z-index: -1;
 
 }
 
@@ -103,6 +118,13 @@ text-decoration: none;
     font-weight: 800;
     font-size: 7rem;
     line-height: 1;
+}
+.hometop > a{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: transparent;   
+    text-decoration: none;
+    z-index: 2;
 }
 
 .nametabAlign{
@@ -131,7 +153,7 @@ font-size: 18px;
 }
 .fullimage{
     width: 100%;
-    height: 500px;
+    height: 900px;
     background-image: url(../images/DaveSose2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,9 +214,14 @@ font-size: 18px;
 .homePageFooter1{
     margin-top: 80px;
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 5fr 1fr 1fr 1fr 1fr ;
     font-size: 16px;
     font-weight: 400;
+}
+.footerSocial{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
 }
 
 /* Styling for work page*/
@@ -214,6 +241,11 @@ font-size: 18px;
     width: 50%;
     margin: 10px;
 }
+.workImagesdiv1, .workImagesdiv2, .workImagesdiv3, .workImagesdiv4{
+    background-image: url("../images/davesosework.PNG");
+background-size: cover;
+background-repeat: no-repeat;
+}
 
 .comingsoon{
     border: 1px solid gray;
@@ -225,6 +257,20 @@ font-size: 18px;
     font-size: 18px;
     font-weight: 600;
 }
+
+.seemoreAbout{
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.seemoreAbout:hover{
+    background-color: grey;
+    color: transparent;
+    border: 0;
+    padding:5px;
+}
 /* About code starts here*/
 .aboutClass{
     text-align: center;
@@ -235,9 +281,11 @@ font-size: 18px;
 .aboutMeFirstImage{
   
         width: 100%;
-        height: 500px;
+        height: 900px;
        border: 1px solid gray;
     border-radius: 10px;
+    background-image: url("../images/davesoseall.jpg");
+    background-size: cover;
     
 }
 
@@ -266,16 +314,21 @@ hr.aboutLine {
     padding-top: 50px;
     font-size: 18px;
     line-height: 1.5;
+    text-align: justify;
     padding-bottom: 50px;
 }
 
 .historyText{
     width: 50%;
+    margin-right: 20px;
 }
 
 .historyImage{
     width: 50%;
-    background-color:#ffffff;
+    height: 400px;
+    background-image: url("../images/daveabout.jpg");
+    background-size: cover;
+    
 }
 .homePageFootersmall{
     display: none;
@@ -321,6 +374,13 @@ hr.aboutLine {
         transform:none;
     
     }
+    .hometop > a{
+        -webkit-text-stroke-width:0;
+        -webkit-text-stroke-color: white;
+        color: #fff;   
+        text-decoration: none;
+        z-index: 2;
+    }
     .aboutdetails {
         width: 100%;
     }
@@ -336,6 +396,9 @@ hr.aboutLine {
         font-size: 2rem;
         line-height: 1;
         margin-top: 90px;
+    }
+    .fullimage{
+        height: 500px;
     }
     
     .nametabAlign{
@@ -365,12 +428,7 @@ hr.aboutLine {
     .textspan2{
         margin-left:50%;
     }
-    .hometop > a{
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: white;
-        color: black;   
-        text-decoration: none;
-    }
+   
     .textspan1:hover{
         font-size: 3rem;
         -webkit-text-stroke-width: 1px;
@@ -397,7 +455,7 @@ hr.aboutLine {
         font-size: 12px;
     }
     .contactHello{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .homePageFootersmall{
         display: contents;
@@ -407,6 +465,7 @@ hr.aboutLine {
     .footerFlex{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         column-gap: 5px;
     }
     .one{
@@ -434,6 +493,7 @@ hr.aboutLine {
         margin: 10px;
         padding-bottom: 40px;
     }
+   
     
     /*About starts here*/
 
@@ -446,7 +506,7 @@ hr.aboutLine {
     .aboutMeFirstImage{
       
             width: 100%;
-            height: 400px;
+            height: 500px;
            border: 1px solid gray;
         border-radius: 0;
         
@@ -471,6 +531,7 @@ hr.aboutLine {
     
     .historyText{
         width: 100%;
+        margin: 0;
     }
     
     .historyImage{
