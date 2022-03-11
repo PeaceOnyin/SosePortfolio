@@ -465,7 +465,8 @@ textarea{
 
     /* contact page*/
     .containercontactUs{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         margin-top: 100px; 
     }
@@ -480,6 +481,7 @@ textarea{
         justify-content: center;
         align-items: center;
         margin: 60px 0;
+        width: 100%;
     }
     /*Contact page ends her*/
     .nav{
