@@ -483,6 +483,11 @@ textarea{
         margin: 60px 0;
         width: 100%;
     }
+    .contactusbody{
+         padding: 0;
+         border: none;
+         
+     }
     /*Contact page ends her*/
     .nav{
         display: grid;
