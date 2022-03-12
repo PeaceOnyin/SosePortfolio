@@ -542,7 +542,7 @@ textarea{
 .textspans{
     margin-top: 100px;
     font-weight: 600;
-    font-size:3rem;
+    font-size:2.5rem;
     line-height: 60px;
     text-align: left;
 }
@@ -551,20 +551,20 @@ textarea{
 }
 
 .textspan1:hover{
-    font-size: 3rem;
+    font-size: 2rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: black;
 
 }
 .textspan2:hover{
-    font-size: 3rem;
+    font-size: 2rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: black;
 }
 .textspan3:hover{
-    font-size: 3rem;
+    font-size: 2rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: black;
@@ -613,44 +613,7 @@ textarea{
     .nametabP{
     text-align: left;  } 
 
-    #Usefulpages{
-        margin-bottom: -40px;
-        font-weight: 300;
-        font-size:0.5rem;
-        line-height: 0;
-        text-align: left;
-    }
-    
-    .textspans{
-        margin-top: 100px;
-        font-weight: 600;
-        font-size:2rem;
-        line-height: 60px;
-        text-align: left;
-    }
-    .textspan2{
-        margin-left:40%;
-    }
    
-    .textspan1:hover{
-        font-size: 2rem;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: white;
-        color: black;
-    
-    }
-    .textspan2:hover{
-        font-size: 2rem;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: white;
-        color: black;
-    }
-    .textspan3:hover{
-        font-size: 3rem;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: white;
-        color: black;
-    }
     .sayHelloHere{
         text-align: center;
         padding: 60px 0;
