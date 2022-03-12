@@ -542,23 +542,23 @@ textarea{
 .textspans{
     margin-top: 100px;
     font-weight: 600;
-    font-size:2rem;
+    font-size:3rem;
     line-height: 60px;
     text-align: left;
 }
 .textspan2{
-    margin-left:40%;
+    margin-left:50%;
 }
 
 .textspan1:hover{
-    font-size: 2rem;
+    font-size: 3rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: black;
 
 }
 .textspan2:hover{
-    font-size: 2rem;
+    font-size: 3rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: black;
